@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.collapsible {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+.collapsible:hover,
+.active {
+    background-color: blue;
+}
+
+/* .content {
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+    background-color: azure;
+} */
+
+.content {
+    padding:0 15px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.collapsible::after {
+    content: '\2795';
+    font-size: 13px;
+    float: right;
+}
+
+.active::after {
+    content: '\2796';
+}
