@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trasparent Image Text</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .container>img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .container .content {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            width: 100%;
+            padding: 15px;
+            text-align: justify;
+            max-height: 50%;
+            /* height: 200px; */
+        }
+        
+        .text {
+            overflow: hidden;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <img src="code.jpg" alt="">
+        <a href="#">
+            <div class="content">
+                <h1>BAŞLIK</h1>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad perspiciatis distinctio quasi rerum atque, minima molestias quod harum a. Eos nulla similique animi maxime, veniam
+                        eligendi vero exercitationem minus quae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis distinctio aspernatur dolorem perspiciatis maxime, laudantium alias officiis. Asperiores dolores quasi numquam sit quia!
+                        Repellendus magni minima velit cum inventore voluptatum.
+                    </p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+</body>
+
+</html>
