@@ -1,0 +1,48 @@
+.container{
+    width:300px;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+.container>img{
+    width: 100%;
+    height: auto;
+}
+/* .overlay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container:hover .overlay{
+    bottom: 0;
+    height: 100%;
+} */
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container:hover .overlay{
+    height: 100%;
+}
