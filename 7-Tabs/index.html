@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs-Sekmeler</title>
+    <style>
+        .tabs{
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        .tablinks{
+            background-color: inherit;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px;
+            transition: 0.3s;
+            float: left;
+        }
+        .tablinks:hover{
+            background-color: #ddd;
+        }
+        .active{
+            background-color: #ddd;
+        }
+        .tabcontent{
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+            animation: fadeEffect 1s;
+        }
+        @keyframes fadeEffect {
+            from{opacity: 0;}
+            to{opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="tabs">
+        <button data-tab="tab1" class="tablinks active">Sekme 1</button>
+        <button data-tab="tab2" class="tablinks">Sekme 2</button>
+        <button data-tab="tab3" class="tablinks">Sekme 3</button>
+    </div>
+
+    <div class="tabcontent" id="tab1">
+        <h3>Başlık 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, iste perspiciatis. Fuga esse eos laudantium, vero delectus similique accusantium optio minus facere ipsum in magni consectetur quod libero minima impedit!</p>
+    </div>
+    <div class="tabcontent" id="tab2">
+        <h3>Başlık 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, iste perspiciatis. Fuga esse eos laudantium, vero delectus similique accusantium optio minus facere ipsum in magni consectetur quod libero minima impedit!</p>
+    </div>
+    <div class="tabcontent" id="tab3">
+        <h3>Başlık 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, iste perspiciatis. Fuga esse eos laudantium, vero delectus similique accusantium optio minus facere ipsum in magni consectetur quod libero minima impedit!</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
