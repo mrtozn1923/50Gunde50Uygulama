@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#btn-menu{
+    cursor: pointer;
+}
+.side-navigation{
+    width: 0;
+    background-color: rgb(24, 23, 23);
+    height: 100%;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.side-navigation>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+.side-navigation>a:hover{
+    opacity: 0.5;
+}
+.content{
+    height: 1000px;
+    margin-top: 60px;
+    padding: 10px;
+}
