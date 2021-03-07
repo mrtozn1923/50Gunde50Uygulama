@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px; */
+}
+.column{
+    flex-basis:100%;
+    max-width: 100%;
+}
+.column>img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+@media (min-width:768px){
+    .column{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width:992px){
+    .column{
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+}
