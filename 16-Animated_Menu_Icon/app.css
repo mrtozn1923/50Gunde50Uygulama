@@ -1,7 +1,5 @@
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 .container{
     display: inline-block;
