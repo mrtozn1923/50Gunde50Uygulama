@@ -1,0 +1,45 @@
+.switch{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    /* background-color: red; */
+    position: relative;
+}
+.switch input[type="checkbox"]{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    transition: background-color 1s;
+}
+.slider::before{
+    position: absolute;
+    content: '';
+    height: 80%;
+    width: 45%;
+    background-color: white;
+    margin-left: 5%;
+    transition: transform .4s ease-in;
+}
+input[type="checkbox"]:checked + .slider{
+    background-color: #2196f3;
+}
+input[type="checkbox"]:checked + .slider::before{
+    transform: translateX(100%);
+}
+.slider.round{
+    border-radius: 50px;
+}
+.slider.round::before{
+    border-radius: 50%;
+}
