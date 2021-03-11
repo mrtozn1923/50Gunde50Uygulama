@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+.customer-list{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+.customer-list li{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+.btn-sort{
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    float: left;
+}
