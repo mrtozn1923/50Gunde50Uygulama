@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* transform: translateY(-70px); */
+    transition: transform .4s ease;
+}
+.navbar a{
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: grey;
+}
+main{
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 50px;
+}
+main p{
+    margin-top: 20px;
+}
