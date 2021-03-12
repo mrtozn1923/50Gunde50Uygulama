@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: darkblue;
+    color: white;
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 25px;
+}
+nav a:hover{
+    background-color: gray;
+}
+main{
+    padding: 20px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+}
+main p{
+    margin-top: 20px;
+}
