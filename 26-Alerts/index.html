@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerts</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-registration">
+            <span>Kullanıcı Kaydı</span>
+            <input type="text" id="user-name" placeholder="Kullanıcı Adı">
+            <input type="text" id="user-password" placeholder="Şifre">
+            <button type="button" class="button" id="btn-register">Kaydet</button>
+        </div>
+        
+        <div class="alert alert-success">
+            <span class="alert-text">Kayıt işlemi başarılı...</span>
+            <span class="alert-close-button">&times;</span>
+        </div>
+        <div class="alert alert-danger">
+            <span class="alert-text">Böyle bir kullanıcı bulunmaktadır!</span>
+            <span class="alert-close-button">&times;</span>
+        </div>
+        <div class="alert alert-warning">
+            <span class="alert-text">Lütfen tüm alanları doldurun...</span>
+            <span class="alert-close-button">&times;</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
