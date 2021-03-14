@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Steps Form</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <div class="form-header">
+            <div class="indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </div>
+        <div class="form-body">
+            <div class="user-info">
+                <h2>Kişisel Bilgiler</h2>
+                <input type="text" placeholder="Ad" name="first-name" id="first-name">
+                <input type="text" placeholder="Soyad" name="last-surname" id="last-name">
+                <input type="number" placeholder="Yaş" name="age" id="age">
+            </div>
+            <div class="user-info">
+                <h2>Eğitim Durumu</h2>
+                <select name="education-level" id="education-level">
+                    <option value="degree">Lisans</option>
+                    <option value="degree">Lisans</option>
+                    <option value="associate-degree">Ön Lisans</option>
+                    <option value="high-school">Lise</option>
+                    <option value="primary-school">İlkokul</option>
+                </select>
+                <select name="education-status" id="education-status">
+                    <option value="graduated">Mezun</option>
+                    <option value="studying">Okuyor</option>
+                </select>
+            </div>
+            <div class="user-info">
+                <h2>Ehliyet</h2>
+                <select name="driving-license" id="education-status">
+                    <option value="M">M</option>
+                    <option value="A1">A1</option>
+                    <option value="A2">A2</option>
+                    <option value="A">A</option>
+                    <option value="B1">B1</option>
+                    <option value="B">B</option>
+                </select>
+            </div>
+            <div class="user-info">
+                <h2>Kaydınız Alındı. Teşekkürler</h2>
+            </div>
+        </div>
+        <div class="form-footer">
+            <button class="navigation" id="btn-prev">Geri</button>
+            <button class="navigation" id="btn-next">İleri</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
