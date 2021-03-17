@@ -55,6 +55,7 @@ function removeResultElement() {
     resultElements.forEach(function(element) {
         element.remove();
     });
+    resultElements.splice(0, resultElements.length);
 }
 
 function elementHover(elements) {
