@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+}
+.copy-message{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+}
+.input{
+    height: 50px;
+    width: 300px;
+    padding-right: 50px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.input::selection{
+    background-color: transparent;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    fill: grey;
+}
