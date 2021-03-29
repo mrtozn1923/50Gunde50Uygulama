@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.run{
+    width: 100px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 2px black;
+    margin-bottom: 50px;
+    cursor: pointer;
+    outline: none;
+}
+.run:hover{
+    box-shadow: 0 0 1px black;
+}
+
+.loading-bar{
+    height: 50px;
+    max-width: 500px;
+    width: 80%;
+    border: 2px solid black;
+}
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    transition: width 1s;
+}
