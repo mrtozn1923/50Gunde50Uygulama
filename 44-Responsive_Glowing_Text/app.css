@@ -1,0 +1,28 @@
+/* text-shadow: h-shadow v-shadow blur-radius color*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.text{
+    color: white;
+    font-size: 15vw;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 5px #fff,0 0 15px #fff, 0 0 35px #1d99ec,0 0 45px #1d99ec, 0 0 65px #1d99ec;
+    }
+    to{
+        text-shadow: 0 0 10px #fff,0 0 20px #fff, 0 0 60px #1d99ec,0 0 80px #1d99ec, 0 0 90px #1d99ec;
+    }
+}
