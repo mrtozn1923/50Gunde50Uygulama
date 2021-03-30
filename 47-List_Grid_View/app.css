@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.listing{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button span{
+    margin-right: 10px;
+}
+.row{
+    width: 100%;
+}
+.column{
+    float: left;
+    width: calc(50% - 10px);
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    margin-bottom: 20px;
+    transition: width 0.2s;
+}
+.column:nth-child(odd){
+    margin-right: 20px;
+}
