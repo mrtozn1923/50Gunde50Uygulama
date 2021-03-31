@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fas{
+    text-shadow: 0 0 5px grey;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.time{
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 0 0 5px grey;
+}
+.active{
+    animation: wink 1s infinite;
+}
+@keyframes wink {
+    from{
+        color:red;
+    }
+    to{
+        color:black;
+    }
+}
