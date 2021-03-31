@@ -1,0 +1,20 @@
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+    max-width: 768px;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle(50%);
+    /* shape-outside: url(businessman.png); */
+    box-shadow: 0 0 2px black;
+    margin-right: 10px;
+}
