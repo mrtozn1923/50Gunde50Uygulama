@@ -4,4 +4,7 @@
 
 [CodePen Sayfası](https://codepen.io/collection/DydPjr?grid_type=list&sort_by=id)
 
-Kurs Hazırlanmaktadır
+![Screenshot](0-Course_Content/CourseThumbnail.png)
+
+![Screenshot](0-Course_Content/content1.png)
+![Screenshot](0-Course_Content/content2.png)
