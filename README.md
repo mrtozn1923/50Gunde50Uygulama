@@ -4,6 +4,8 @@
 
 [CodePen Sayfası](https://codepen.io/collection/DydPjr?grid_type=list&sort_by=id)
 
+[Kurs Sayfası](https://akademiktv.com/index.jsp?modul=multicourse&courseid=115)
+
 ![Screenshot](0-Course_Content/CourseThumbnail.png)
 
 ![Screenshot](0-Course_Content/content1.png)
